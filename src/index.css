@@ -30,3 +30,9 @@ body {
   font-size: 12rem;
   font-weight: 700;
 }
+
+@media screen and (max-width: 520px) {
+  .clock-container span{
+    transform: rotate(90deg);
+  }
+}
